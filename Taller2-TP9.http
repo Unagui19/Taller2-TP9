@@ -1,0 +1,6 @@
+@Taller2_TP9_HostAddress = http://localhost:5062
+
+GET {{Taller2_TP9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

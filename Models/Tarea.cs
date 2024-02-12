@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Entidades.Models
 {
     public enum Estado{Ideas = 1, ToDo, Doing, Review, Done};
     public class Tarea

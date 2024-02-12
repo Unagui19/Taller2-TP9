@@ -1,4 +1,4 @@
-namespace Entidades
+namespace Entidades.Models
 {
     public class Tablero
     {

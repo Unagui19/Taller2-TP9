@@ -1,17 +1,18 @@
-namespace Entidades
+namespace Entidades.Models
 {
     public class Usuario
     {
         public int Id {get;set;}
         public string NombreDeUsuario {get;set;}
 
+        public Usuario(){}
         public Usuario(int id){
-            int Id = id;
+            Id = id;
         }
 
         public Usuario(int id, string nombre){
-            int Id = id;
-            string NombreDeUsuario = nombre;
+            Id = id;
+            NombreDeUsuario = nombre;
         }
     }    
 }
